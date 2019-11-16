@@ -30,3 +30,9 @@ var questions = [
         answer: "The Articles of Confederation"
     }
 ]
+
+/**
+ * show the title, generate five buttons
+ * click listener, tell when buttons are clicked, check if answer is correct or not, afterwards show next question
+ * If all the questions are done, show the score
+ */
