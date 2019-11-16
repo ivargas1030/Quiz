@@ -18,7 +18,7 @@ var questions = [
     },
 
     {
-        title: "The number of amendments that were originally added to the COnsitution in 1791 is:",
+        title: "The number of amendments that were originally added to the Consitution in 1791 is:",
         choices: ["3", "1", "10", "13"],
         answer: "10"
 
@@ -31,19 +31,19 @@ var questions = [
     }
 ];
 
-function showquestions () { 
+    function showquestions () { 
         // This is the container that will contain all the buttons
     // var buttonContain = document.getElementById("buttons");
-    var buttonContain = $("#buttons");
+        var buttonContain = $("#buttons");
 
-    var titleDiv = $("#title").text(questions[0].title);
+        var titleDiv = $("#title").text(questions[0].title);
 
     // For every choice make a button and then append it to the container
-    for (var i = 0; i < questions[0].choices.length; i++) {
+        for (var i = 0; i < questions[0].choices.length; i++) {
 
         // For each drink in the array, we create a new paragraph to hold that text.
         // A new paragraph will be created with each iteration of the loop.
-        // var button = document.createElement("button");
+        var button = document.createElement("button");
         var button = $("<button>")
 
         // We then assign the the text of this paragraph to be the text in the array.
@@ -64,4 +64,4 @@ showquestions()
  * maybe for each question
  */
 
- 
+
