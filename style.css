@@ -1,6 +1,7 @@
 body {
   background-color: navy;
   
+  
 }
 
 .container {
@@ -12,4 +13,18 @@ body {
 h1 {
   color: white;
   text-align: center;
+}
+
+#buttons {
+  text-align: center;
+}
+
+img {
+  height: 250px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  position: center;
+  padding-top: 25px;
 }
