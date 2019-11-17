@@ -41,7 +41,7 @@ var questions = [
     // For every choice make a button and then append it to the container
         for (var i = 0; i < questions[0].choices.length; i++) {
 
-        // For each drink in the array, we create a new paragraph to hold that text.
+        // For each question in the array, we create a new paragraph to hold that text.
         // A new paragraph will be created with each iteration of the loop.
         var button = document.createElement("button");
         var button = $("<button>")
