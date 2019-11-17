@@ -1,0 +1,15 @@
+body {
+  background-color: navy;
+  
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  background-color: red;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}

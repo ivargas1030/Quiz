@@ -31,7 +31,7 @@ var questions = [
     }
 ];
 
-    function showquestions () { 
+        function showquestions () { 
         // This is the container that will contain all the buttons
     // var buttonContain = document.getElementById("buttons");
         var buttonContain = $("#buttons");
@@ -54,7 +54,7 @@ var questions = [
     }
 }
 
-showquestions()
+showquestions();
 
 /**
  * Break this down into steps
@@ -63,5 +63,4 @@ showquestions()
  * If all the questions are done, show the score
  * maybe for each question
  */
-
 
